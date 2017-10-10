@@ -118,8 +118,8 @@ var animalArray = [pepe, birdie, dog, otherBirdie]
 print("\nThese animals can fly:")
 
 for animal in animalArray {
-    if let testAnimal = animal as? canFly {
-        print(testAnimal.name)
+    if animal is canFly {
+        print(animal.name)
     }
 }
 
