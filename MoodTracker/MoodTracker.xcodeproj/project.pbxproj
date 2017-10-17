@@ -62,15 +62,23 @@
 			children = (
 				496F979B1F96844D00B3AE2C /* AppDelegate.swift */,
 				496F979F1F96844D00B3AE2C /* Main.storyboard */,
-				496F97B31F96983400B3AE2C /* DetailViewController.swift */,
+				496F97B51F969C6B00B3AE2C /* View Controllers */,
 				496F97AF1F9684D600B3AE2C /* FriendTableViewCell.swift */,
-				496F97AD1F96848E00B3AE2C /* MoodTableViewController.swift */,
 				496F97B11F968BEE00B3AE2C /* Friend.swift */,
 				496F97A21F96844D00B3AE2C /* Assets.xcassets */,
 				496F97A41F96844D00B3AE2C /* LaunchScreen.storyboard */,
 				496F97A71F96844D00B3AE2C /* Info.plist */,
 			);
 			path = MoodTracker;
+			sourceTree = "<group>";
+		};
+		496F97B51F969C6B00B3AE2C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				496F97B31F96983400B3AE2C /* DetailViewController.swift */,
+				496F97AD1F96848E00B3AE2C /* MoodTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

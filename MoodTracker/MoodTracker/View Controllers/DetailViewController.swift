@@ -8,9 +8,16 @@
 
 import UIKit
 
+protocol MoodDelegate: class {
+    func addFriend(friend: Friend)
+}
+
+
 class DetailViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emojiSC: UISegmentedControl!
+    
+    weak var moodDelegate: MoodDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()

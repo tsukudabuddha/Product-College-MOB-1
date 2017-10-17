@@ -8,8 +8,19 @@
 
 import UIKit
 
-class MoodTableViewController: UITableViewController {
-
+class MoodTableViewController: UITableViewController, MoodDelegate {
+    
+    func addFriend(friend: Friend) {
+        friends.append(friend)
+    }
+    
+    @IBAction func addFriend(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "main", bundle: nil)
+        let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailVC") as! DetailViewController
+        self.present(detailVC, animated: true)
+        detailVC.moodDelegate = self
+    }
+    
     var friends: [Friend] = [Friend(name: "Name", mood: "Mood")]
     
     override func viewDidLoad() {

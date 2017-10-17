@@ -12,7 +12,7 @@
         <!--Mood Table View Controller-->
         <scene sceneID="Act-Od-Jps">
             <objects>
-                <tableViewController id="HaK-y0-PqQ" customClass="MoodTableViewController" customModule="MoodTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MoodVC" id="HaK-y0-PqQ" customClass="MoodTableViewController" customModule="MoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="V43-eK-22I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,6 +24,7 @@
                                 <navigationItem title="Mood Tracker" id="s8v-Y9-hSX">
                                     <barButtonItem key="rightBarButtonItem" systemItem="add" id="oTl-6m-h9f">
                                         <connections>
+                                            <action selector="addFriend:" destination="HaK-y0-PqQ" id="qP0-dh-gEC"/>
                                             <segue destination="XsO-gW-qat" kind="popoverPresentation" popoverAnchorBarButtonItem="oTl-6m-h9f" id="ZPQ-1G-Ru2">
                                                 <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                             </segue>
@@ -75,7 +76,7 @@
         <!--Detail View Controller-->
         <scene sceneID="WV3-J4-I2t">
             <objects>
-                <viewController id="XsO-gW-qat" customClass="DetailViewController" customModule="MoodTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="XsO-gW-qat" customClass="DetailViewController" customModule="MoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Pl-KT-Xoq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
