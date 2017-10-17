@@ -17,8 +17,9 @@ class MoodTableViewController: UITableViewController, MoodDelegate {
     @IBAction func addFriend(_ sender: Any) {
         let storyboard = UIStoryboard(name: "main", bundle: nil)
         let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailVC") as! DetailViewController
-        self.present(detailVC, animated: true)
+        self.navigationController?.pushViewController(detailVC, animated: true)
         detailVC.moodDelegate = self
+        
     }
     
     var friends: [Friend] = [Friend(name: "Name", mood: "Mood")]
@@ -54,6 +55,8 @@ class MoodTableViewController: UITableViewController, MoodDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FriendCell", for: indexPath) as! FriendTableViewCell
 
         // Configure the cell...
+        cell.friendNameLabel.text = friends[indexPath.row].name
+        cell.friendEmojiLabel.text = friends[indexPath.row].mood
         return cell
     }
     

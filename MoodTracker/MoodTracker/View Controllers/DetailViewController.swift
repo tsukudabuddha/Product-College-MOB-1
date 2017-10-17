@@ -30,7 +30,11 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func addFriendClick(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+        print("Clicked")
+    }
+    
     /*
     // MARK: - Navigation
 

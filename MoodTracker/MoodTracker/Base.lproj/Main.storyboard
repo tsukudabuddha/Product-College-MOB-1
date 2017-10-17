@@ -106,6 +106,9 @@
                                 <state key="normal" title="Add Friend">
                                     <color key="titleColor" red="0.2947511606984764" green="0.70346890107569682" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="addFriendClick:" destination="XsO-gW-qat" eventType="touchUpInside" id="xk6-kQ-qaS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
