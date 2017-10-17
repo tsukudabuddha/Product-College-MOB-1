@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		496AB2761F82F947009E3379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AB2751F82F947009E3379 /* AppDelegate.swift */; };
-		496AB2781F82F947009E3379 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AB2771F82F947009E3379 /* UIViewController.swift */; };
-		496AB27B1F82F947009E3379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496AB2791F82F947009E3379 /* Main.storyboard */; };
-		496AB27D1F82F947009E3379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496AB27C1F82F947009E3379 /* Assets.xcassets */; };
-		496AB2801F82F947009E3379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496AB27E1F82F947009E3379 /* LaunchScreen.storyboard */; };
-		496AB2881F82FA3B009E3379 /* MoodPickingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AB2871F82FA3B009E3379 /* MoodPickingTableViewController.swift */; };
+		496F979C1F96844D00B3AE2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F979B1F96844D00B3AE2C /* AppDelegate.swift */; };
+		496F97A11F96844D00B3AE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F979F1F96844D00B3AE2C /* Main.storyboard */; };
+		496F97A31F96844D00B3AE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F97A21F96844D00B3AE2C /* Assets.xcassets */; };
+		496F97A61F96844D00B3AE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F97A41F96844D00B3AE2C /* LaunchScreen.storyboard */; };
+		496F97AE1F96848E00B3AE2C /* MoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F97AD1F96848E00B3AE2C /* MoodTableViewController.swift */; };
+		496F97B01F9684D600B3AE2C /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F97AF1F9684D600B3AE2C /* FriendTableViewCell.swift */; };
+		496F97B21F968BEE00B3AE2C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F97B11F968BEE00B3AE2C /* Friend.swift */; };
+		496F97B41F96983400B3AE2C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F97B31F96983400B3AE2C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		496AB2721F82F947009E3379 /* MoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		496AB2751F82F947009E3379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		496AB2771F82F947009E3379 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		496AB27A1F82F947009E3379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		496AB27C1F82F947009E3379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		496AB27F1F82F947009E3379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		496AB2811F82F947009E3379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		496AB2871F82FA3B009E3379 /* MoodPickingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickingTableViewController.swift; sourceTree = "<group>"; };
+		496F97981F96844D00B3AE2C /* MoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496F979B1F96844D00B3AE2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496F97A01F96844D00B3AE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496F97A21F96844D00B3AE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496F97A51F96844D00B3AE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496F97A71F96844D00B3AE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496F97AD1F96848E00B3AE2C /* MoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewController.swift; sourceTree = "<group>"; };
+		496F97AF1F9684D600B3AE2C /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		496F97B11F968BEE00B3AE2C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		496F97B31F96983400B3AE2C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		496AB26F1F82F947009E3379 /* Frameworks */ = {
+		496F97951F96844D00B3AE2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		496AB2691F82F947009E3379 = {
+		496F978F1F96844D00B3AE2C = {
 			isa = PBXGroup;
 			children = (
-				496AB2741F82F947009E3379 /* MoodTracker */,
-				496AB2731F82F947009E3379 /* Products */,
+				496F979A1F96844D00B3AE2C /* MoodTracker */,
+				496F97991F96844D00B3AE2C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		496AB2731F82F947009E3379 /* Products */ = {
+		496F97991F96844D00B3AE2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				496AB2721F82F947009E3379 /* MoodTracker.app */,
+				496F97981F96844D00B3AE2C /* MoodTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		496AB2741F82F947009E3379 /* MoodTracker */ = {
+		496F979A1F96844D00B3AE2C /* MoodTracker */ = {
 			isa = PBXGroup;
 			children = (
-				496AB2751F82F947009E3379 /* AppDelegate.swift */,
-				496AB2871F82FA3B009E3379 /* MoodPickingTableViewController.swift */,
-				496AB2771F82F947009E3379 /* UIViewController.swift */,
-				496AB2791F82F947009E3379 /* Main.storyboard */,
-				496AB27C1F82F947009E3379 /* Assets.xcassets */,
-				496AB27E1F82F947009E3379 /* LaunchScreen.storyboard */,
-				496AB2811F82F947009E3379 /* Info.plist */,
+				496F979B1F96844D00B3AE2C /* AppDelegate.swift */,
+				496F979F1F96844D00B3AE2C /* Main.storyboard */,
+				496F97B31F96983400B3AE2C /* DetailViewController.swift */,
+				496F97AF1F9684D600B3AE2C /* FriendTableViewCell.swift */,
+				496F97AD1F96848E00B3AE2C /* MoodTableViewController.swift */,
+				496F97B11F968BEE00B3AE2C /* Friend.swift */,
+				496F97A21F96844D00B3AE2C /* Assets.xcassets */,
+				496F97A41F96844D00B3AE2C /* LaunchScreen.storyboard */,
+				496F97A71F96844D00B3AE2C /* Info.plist */,
 			);
 			path = MoodTracker;
 			sourceTree = "<group>";
@@ -70,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		496AB2711F82F947009E3379 /* MoodTracker */ = {
+		496F97971F96844D00B3AE2C /* MoodTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 496AB2841F82F947009E3379 /* Build configuration list for PBXNativeTarget "MoodTracker" */;
+			buildConfigurationList = 496F97AA1F96844D00B3AE2C /* Build configuration list for PBXNativeTarget "MoodTracker" */;
 			buildPhases = (
-				496AB26E1F82F947009E3379 /* Sources */,
-				496AB26F1F82F947009E3379 /* Frameworks */,
-				496AB2701F82F947009E3379 /* Resources */,
+				496F97941F96844D00B3AE2C /* Sources */,
+				496F97951F96844D00B3AE2C /* Frameworks */,
+				496F97961F96844D00B3AE2C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,26 +90,26 @@
 			);
 			name = MoodTracker;
 			productName = MoodTracker;
-			productReference = 496AB2721F82F947009E3379 /* MoodTracker.app */;
+			productReference = 496F97981F96844D00B3AE2C /* MoodTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		496AB26A1F82F947009E3379 /* Project object */ = {
+		496F97901F96844D00B3AE2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Andrew Tsukuda";
 				TargetAttributes = {
-					496AB2711F82F947009E3379 = {
+					496F97971F96844D00B3AE2C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 496AB26D1F82F947009E3379 /* Build configuration list for PBXProject "MoodTracker" */;
+			buildConfigurationList = 496F97931F96844D00B3AE2C /* Build configuration list for PBXProject "MoodTracker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +117,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 496AB2691F82F947009E3379;
-			productRefGroup = 496AB2731F82F947009E3379 /* Products */;
+			mainGroup = 496F978F1F96844D00B3AE2C;
+			productRefGroup = 496F97991F96844D00B3AE2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				496AB2711F82F947009E3379 /* MoodTracker */,
+				496F97971F96844D00B3AE2C /* MoodTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		496AB2701F82F947009E3379 /* Resources */ = {
+		496F97961F96844D00B3AE2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496AB2801F82F947009E3379 /* LaunchScreen.storyboard in Resources */,
-				496AB27D1F82F947009E3379 /* Assets.xcassets in Resources */,
-				496AB27B1F82F947009E3379 /* Main.storyboard in Resources */,
+				496F97A61F96844D00B3AE2C /* LaunchScreen.storyboard in Resources */,
+				496F97A31F96844D00B3AE2C /* Assets.xcassets in Resources */,
+				496F97A11F96844D00B3AE2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		496AB26E1F82F947009E3379 /* Sources */ = {
+		496F97941F96844D00B3AE2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496AB2781F82F947009E3379 /* UIViewController.swift in Sources */,
-				496AB2761F82F947009E3379 /* AppDelegate.swift in Sources */,
-				496AB2881F82FA3B009E3379 /* MoodPickingTableViewController.swift in Sources */,
+				496F979C1F96844D00B3AE2C /* AppDelegate.swift in Sources */,
+				496F97B21F968BEE00B3AE2C /* Friend.swift in Sources */,
+				496F97B41F96983400B3AE2C /* DetailViewController.swift in Sources */,
+				496F97AE1F96848E00B3AE2C /* MoodTableViewController.swift in Sources */,
+				496F97B01F9684D600B3AE2C /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		496AB2791F82F947009E3379 /* Main.storyboard */ = {
+		496F979F1F96844D00B3AE2C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				496AB27A1F82F947009E3379 /* Base */,
+				496F97A01F96844D00B3AE2C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		496AB27E1F82F947009E3379 /* LaunchScreen.storyboard */ = {
+		496F97A41F96844D00B3AE2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				496AB27F1F82F947009E3379 /* Base */,
+				496F97A51F96844D00B3AE2C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		496AB2821F82F947009E3379 /* Debug */ = {
+		496F97A81F96844D00B3AE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		496AB2831F82F947009E3379 /* Release */ = {
+		496F97A91F96844D00B3AE2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +282,7 @@
 			};
 			name = Release;
 		};
-		496AB2851F82F947009E3379 /* Debug */ = {
+		496F97AB1F96844D00B3AE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		496AB2861F82F947009E3379 /* Release */ = {
+		496F97AC1F96844D00B3AE2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		496AB26D1F82F947009E3379 /* Build configuration list for PBXProject "MoodTracker" */ = {
+		496F97931F96844D00B3AE2C /* Build configuration list for PBXProject "MoodTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				496AB2821F82F947009E3379 /* Debug */,
-				496AB2831F82F947009E3379 /* Release */,
+				496F97A81F96844D00B3AE2C /* Debug */,
+				496F97A91F96844D00B3AE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		496AB2841F82F947009E3379 /* Build configuration list for PBXNativeTarget "MoodTracker" */ = {
+		496F97AA1F96844D00B3AE2C /* Build configuration list for PBXNativeTarget "MoodTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				496AB2851F82F947009E3379 /* Debug */,
-				496AB2861F82F947009E3379 /* Release */,
+				496F97AB1F96844D00B3AE2C /* Debug */,
+				496F97AC1F96844D00B3AE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 496AB26A1F82F947009E3379 /* Project object */;
+	rootObject = 496F97901F96844D00B3AE2C /* Project object */;
 }
